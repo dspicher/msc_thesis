@@ -24,7 +24,8 @@
 % CD        -- number of CD steps.
 
 % This is a slightly modified version of the program that was originally written 
-% by Geoffrey Hinton and Ruslan Salakhutdinov.
+% by Geoffrey Hinton and Ruslan Salakhutdinov, used for my master thesis.
+% https://github.com/dspicher/msc_thesis
 function [vishid,visbiases,hidbiases,errors,learningTrack] = rbm(batchdata,opts,learningTrackSamples)
     CD = opts.CD;
     numhid = opts.numhid;
